@@ -1,0 +1,11 @@
+<div class="body-all">
+  <h1>Your stupid coach 🚀</h1>
+    <div class="body-output">
+      <h2> Hello You, what is your Question?</h2>
+      <br><br>
+      <p> You: <%= params[:question] %></p>
+      <p> Coach: <%= @answer %> </p>
+      <br><br>
+      <%= link_to "Ask another Question", '/ask' %>
+    </div>
+</div>
